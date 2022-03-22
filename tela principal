@@ -1,0 +1,52 @@
+<p style="text-align: left;">&nbsp;</p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 19.6296%;"><a href="https://www.batata.com/inicio">Inicio</a></td>
+<td style="width: 32.4074%;"><a href="https://www.batata.com/incidentes_resolvidos">Incidentes Resolvidos</a></td>
+<td style="width: 31.2963%;"><a href="https://www.batata.com/registrar_incidente">Registrar Incidente</a></td>
+<td style="width: 16.6667%;"><a href="https://www.batata.com/logout">Logout</a></td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 33.3333%;"><a href="https://www.batata.com/mais_votados">Mais votados</a></td>
+<td style="width: 33.3333%;"><a href="https://www.batata.com/novos">Novos</a></td>
+<td style="width: 33.3333%;"><a href="https://www.batata.com/em_alta">Em alta</a></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: left;"><em>Titulo do Incidente #1</em></p>
+<table style="border-collapse: collapse; width: 49.7604%; height: 139px;" border="1">
+<tbody>
+<tr style="height: 139px;">
+<td style="width: 100%; height: 139px;">Descri&ccedil;&atilde;o do incidente 1</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 49.8148%;" border="1">
+<tbody>
+<tr>
+<td style="width: 23.2342%;"><a href="https://www.batata.com/reportar_falso">Reportar</a></td>
+<td style="width: 28.6176%;"><a href="https://www.batata.com/votar">numero de votos</a></td>
+</tr>
+</tbody>
+</table>
+<p><em>Titulo do Incidente #2</em></p>
+<table style="border-collapse: collapse; width: 49.7604%; height: 139px;" border="1">
+<tbody>
+<tr style="height: 134px;">
+<td style="width: 100%; height: 134px;">Descri&ccedil;&atilde;o do incidente 2</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 49.8148%;" border="1">
+<tbody>
+<tr>
+<td style="width: 24.9071%;"><a href="https://www.batata.com/reportar_falso">Reportar</a></td>
+<td style="width: 26.9448%;"><a href="https://www.batata.com/votar">numero de votos</a></td>
+</tr>
+</tbody>
+</table>
