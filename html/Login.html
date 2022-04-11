@@ -1,20 +1,30 @@
 <!doctype html>
 <html lang="en">
     <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
        <link rel="stylesheet" href="style.css"/>
-       <title> SRI </title>
     </head>
 
     <body>
-        <div class="content">      
+        
+        <div class="container">
+            <header>
+                <nav>
+                    <div class="barra-de-navegacao">
+                        <a href="index.html">
+                            <center><img id="logo" src="sri.png" alt="S.R.I"></center>
+                        </a>
+                    </div>
+                </nav>
+            </header>
+        </div> 
+
+        <br><br><br><br>
+
+        <div class="content"> 
 
             <!--FORMULÁRIO DE LOGIN-->
             <div id="login">
-
-                <div clas="content">
 
                     <h1>Login</h1>
 
@@ -26,15 +36,35 @@
                         <input id="senha" name="senha" required="required" type="password" placeholder="Senha"/>
                     </p>
 
-                    <p>
-                        <input id="matricula" name="matricula" required="required" type="matricula" placeholder="Número da matrícula"/>
-                    </p>
-
                     <p> 
-                        <input type="submit" value="Logar" /> 
+                        <input type="submit" value="Logar"/> 
                     </p>
-
                 </div>
+            </div>
+
+            <div id="cadastro">
+
+                <h1>Cadastro</h1>
+
+                <p>
+                    <input id="name_cad" name="name_cad" required="required" type="text" placeholder="Nome completo"/>
+                </p>
+
+                <p>
+                    <input id="email_cad" name="email_cad" required="required" type="email" placeholder="E-mail"/>
+                </p>
+
+                <p>
+                    <input id="matricula_cad" name="matricula_cad" required="required" type="matricula" placeholder="Numero de matricula"/>
+                </p>
+  
+                <p>
+                    <input id="password_cad" name="password_cad" required="required" type="password" placeholder="Senha"/>
+                </p>
+
+                <p>
+                    <input type="submit" value="Cadastrar"/> 
+                </p>
             </div>
         </div>
     </body>
