@@ -21,53 +21,56 @@
 
         <br><br><br><br>
 
-        <div class="content"> 
+        <center>
+            
+            <div class="content"> 
 
-            <!--FORMULÁRIO DE LOGIN-->
-            <div id="login">
+                <!--FORMULÁRIO DE LOGIN-->
+                <div id="login">
 
-                    <h1>Login</h1>
+                        <h1>Login</h1>
+
+                        <p>
+                            <input id="login" name="login" required="required" type="email" placeholder="Email"/>
+                        </p>
+
+                        <p>
+                            <input id="senha" name="senha" required="required" type="password" placeholder="Senha"/>
+                        </p>
+
+                        <p> 
+                            <a href="pagina_principal.html">
+                                <input type="submit" value="Logar"/> 
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="cadastro">
+
+                    <h1>Cadastro</h1>
 
                     <p>
-                        <input id="login" name="login" required="required" type="email" placeholder="Email"/>
+                        <input id="name_cad" name="name_cad" required="required" type="text" placeholder="Nome completo"/>
                     </p>
 
                     <p>
-                        <input id="senha" name="senha" required="required" type="password" placeholder="Senha"/>
+                        <input id="email_cad" name="email_cad" required="required" type="email" placeholder="E-mail"/>
                     </p>
 
-                    <p> 
-                        <a href="pagina_principal.html">
-                            <input type="submit" value="Logar"/> 
-                        </a>
+                    <p>
+                        <input id="matricula_cad" name="matricula_cad" required="required" type="matricula" placeholder="Numero de matricula"/>
+                    </p>
+    
+                    <p>
+                        <input id="password_cad" name="password_cad" required="required" type="password" placeholder="Senha"/>
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Cadastrar"/> 
                     </p>
                 </div>
             </div>
-
-            <div id="cadastro">
-
-                <h1>Cadastro</h1>
-
-                <p>
-                    <input id="name_cad" name="name_cad" required="required" type="text" placeholder="Nome completo"/>
-                </p>
-
-                <p>
-                    <input id="email_cad" name="email_cad" required="required" type="email" placeholder="E-mail"/>
-                </p>
-
-                <p>
-                    <input id="matricula_cad" name="matricula_cad" required="required" type="matricula" placeholder="Numero de matricula"/>
-                </p>
-  
-                <p>
-                    <input id="password_cad" name="password_cad" required="required" type="password" placeholder="Senha"/>
-                </p>
-
-                <p>
-                    <input type="submit" value="Cadastrar"/> 
-                </p>
-            </div>
-        </div>
+        </center>
     </body>
 </html>
